@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Alex Brush';
+    font-weight: 400;
+    src: url(../../public/fonts/AlexBrush-Regular.ttf) format('truetype');
+  }
+}
+custom-bg {
+  background: url('../../public/images/flowers.webp') cover no-repeat center
+    fixed;
+  width: 100vw;
+  height: 100vh;
+}
