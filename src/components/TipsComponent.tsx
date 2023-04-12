@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { v4 as randomUUID } from "uuid";
+import { MdLocationPin, MdPhone, MdEuro } from "react-icons/md";
 
 const TipsComponent = () => {
   const hotelList = [
@@ -46,9 +47,10 @@ const TipsComponent = () => {
   return (
     <div className="w-full">
       <h2 className="my-2 text-2xl">Astuces et recommandations</h2>
+      <h2 className="my-2 text-lg">Hébergement</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {hotelList?.map((hotel) => (
-          <div className="m-3 w-56 bg-purple-700 rounded-md" key={hotel.id}>
+          <div className="m-3 w-56 rounded-md bg-accent" key={hotel.id}>
             <h5 className="p-2 h-20 text-center uppercase">{hotel.title}</h5>
             <Image
               className="object-contain object-center w-full h-48 rounded-sm"
@@ -59,10 +61,65 @@ const TipsComponent = () => {
             />
 
             <div className="p-2">
-              <p className="text-italic">{hotel.adress}</p>
+              <p className="flex justify-start">
+                <div className="w-10">
+                  <MdLocationPin className="text-secondary" size={24} />
+                </div>
+                <span>{hotel.adress}</span>
+              </p>
 
-              <p>tel : {hotel?.tel}</p>
-              <p>Prix : {hotel?.price}</p>
+              <p className="flex justify-start">
+                <div className="w-10">
+                  <MdPhone className="text-secondary" size={24} />
+                </div>
+                <span>{hotel?.tel}</span>
+              </p>
+
+              <div className="flex justify-start">
+                <div className="w-10">
+                  <MdEuro className="text-secondary" size={24} />
+                </div>
+                <span>{hotel?.price}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h3 className="my-2 text-lg">Restaurants livraison</h3>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {hotelList?.map((hotel) => (
+          <div className="m-3 w-56 rounded-md bg-accent" key={hotel.id}>
+            <h5 className="p-2 h-20 text-center uppercase">{hotel.title}</h5>
+            <Image
+              className="object-contain object-center w-full h-48 rounded-sm"
+              src={hotel.imageUrl}
+              alt="Card image cap"
+              width={500}
+              height={500}
+            />
+
+            <div className="p-2">
+              <p className="flex justify-start">
+                <div className="w-10">
+                  <MdLocationPin className="text-secondary" size={24} />
+                </div>
+                <span>{hotel.adress}</span>
+              </p>
+
+              <p className="flex justify-start">
+                <div className="w-10">
+                  <MdPhone className="text-secondary" size={24} />
+                </div>
+                <span>{hotel?.tel}</span>
+              </p>
+
+              <div className="flex justify-start">
+                <div className="w-10">
+                  <MdEuro className="text-secondary" size={24} />
+                </div>
+                <span>{hotel?.price}</span>
+              </div>
             </div>
           </div>
         ))}
