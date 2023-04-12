@@ -66,12 +66,12 @@ const initialListState = [
     invitedBy: 'Mélanie',
     bestMan: true
   },
-  {
-    id: randomUUID(),
-    name: 'Justine',
-    confirmed: false,
-    invitedBy: 'Mélanie'
-  },
+  // {
+  //   id: randomUUID(),
+  //   name: 'Justine',
+  //   confirmed: false,
+  //   invitedBy: 'Mélanie'
+  // },
   {
     id: randomUUID(),
     name: 'Camille',
@@ -123,13 +123,13 @@ const initialListState = [
     confirmed: true,
     invitedBy: 'Swann'
   },
-  {
-    id: randomUUID(),
-    name: 'Nico',
-    confirmed: false,
-    invitedBy: 'Swann',
-    bestMan: true
-  },
+  // {
+  //   id: randomUUID(),
+  //   name: 'Nico',
+  //   confirmed: false,
+  //   invitedBy: 'Swann',
+  //   bestMan: true
+  // },
   {
     id: randomUUID(),
     name: 'Damien',

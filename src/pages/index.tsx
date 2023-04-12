@@ -27,7 +27,7 @@ export default function Home() {
           {/* rdv mariage */}
           <RdvMapComponent />
           <section className="bg-center bg-no-repeat bg-cover bg-guest">
-            <GuestsListComponent />
+            {/* <GuestsListComponent /> */}
 
             {/* emploi du temps */}
             <ScheduleComponent />
