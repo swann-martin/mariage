@@ -12,11 +12,12 @@ const RdvMapComponent = () => {
     <section className="text-white">
       <h2 className="p-2 py-4 text-2xl">{title}</h2>
 
-      <div className="flex flex-col flex-wrap items-center md:flex-row md:justify-around">
-        {/* container with pictures and details */}
-        <div className="h-[450px] rounded-md flex flex-col justify-between w-full md:w-1/2 ">
-          {/* container with picture */}
+      <div className="flex flex-col flex-wrap justify-around items-center md:flex-row">
+        {/* container with 2 part map  */}
+        <div className="h-[450px] rounded-md flex flex-col justify-between w-full md:w-1/2 mb-2">
+          {/* container with city  council picture and details */}
           <div className="grid grid-cols-2">
+            {/* city council picture  */}
             <div className="w-full">
               <Image
                 className="my-2 bg-contain rounded-md"
@@ -27,9 +28,11 @@ const RdvMapComponent = () => {
               />
             </div>
 
-            {/* container with details */}
+            {/* container with 2  */}
             <div className="p-2 w-full">
+              {/* container   */}
               <div className="flex items-start">
+                {/* city council address infos  */}
                 <div className="mr-2">
                   <MdLocationPin className="text-white" size={24} />
                 </div>
@@ -44,6 +47,7 @@ const RdvMapComponent = () => {
                 </h3>
               </div>
 
+              {/* car park infos  */}
               <div className="flex items-start py-2">
                 <div className="mr-2">
                   <MdDriveEta className="text-white" size={24} />
@@ -52,6 +56,8 @@ const RdvMapComponent = () => {
                   Pour vous garer : le parking de l&apos;église ou près du parc
                 </h3>
               </div>
+
+              {/* dress code  infos  */}
               <div className="flex items-start py-2">
                 <div className="mr-2">
                   <GiClothes className="text-white" size={24} />
@@ -94,7 +100,7 @@ const RdvMapComponent = () => {
           style={{ border: 0, margin: 0 }}
           referrerPolicy="no-referrer-when-downgrade"
           src="https://www.openstreetmap.org/export/embed.html?bbox=2.309440970420838%2C48.70179517650844%2C2.316253781318665%2C48.705123041147374&amp;zoom=50&amp;layer=mapnik&amp;marker=48.70257051782459%2C2.3125845193862915"
-          className="h-[450px] w-full md:w-1/2 rounded-md my-2"
+          className="h-[250px] md:h-[450px] w-full md:w-1/2 rounded-md my-2"
           seamless
         />
       </div>
