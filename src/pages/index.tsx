@@ -14,8 +14,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vous êtes convié.e au mariage de Mélanie et Swann</title>
-        <meta name="description" content="Mariage de Mélanie et Swann" />
+        <title>Mariage de Mélanie & Swann</title>
+        <meta name="description" content="Mariage de Mélanie & Swann" />
+
+        <meta
+          property="og:image"
+          content="https://swann-martin.xyz/homeweb.webp"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:title" content="Mariage de Mélanie & Swann" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
