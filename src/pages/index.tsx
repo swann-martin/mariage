@@ -24,6 +24,10 @@ export default function Home() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:title" content="Mariage de Mélanie & Swann" />
+        <meta
+          property="og:description"
+          content="Youpi on va célébrer le mariage de Mélanie & Swann ce samedi 20 mai."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
