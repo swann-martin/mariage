@@ -68,7 +68,7 @@ const ScheduleComponent = () => {
             alt="Mairie de chilly Mazarin"
           />
           <span className="">
-            Apéro goûté : Loulou Antony, Rue du Marché, Antony, France, France
+            Apéro goûter : Loulou Antony, Rue du Marché, Antony, France, France
             <a
               className="text-violet-500"
               href="https://www.loulou-antony.com/menu"
@@ -81,7 +81,7 @@ const ScheduleComponent = () => {
           </span>
         </div>
 
-        <p className="my-auto">Be crazy :&nbsp;</p>
+        <p className="my-auto">Dimanche :&nbsp;</p>
         <div className="flex justify-start items-center w-full md:flex-row">
           <Image
             className="object-cover my-2 mr-2 w-24 h-24 rounded-md md:h-32 md:w-32"
