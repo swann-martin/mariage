@@ -20,7 +20,7 @@ const ScheduleComponent = () => {
       id: randomUUID(),
       time: '13h30 -14h30',
       title: 'Dans le Parc',
-      type: 'Balade / Sieste : ',
+      type: 'Balade / Sieste :',
       adress: '13 Av. de Carlet, 91380 Chilly-Mazarin, France',
       description:
         'Petite balade digestive dans le parc de Chilly-Mazarin. Ce sera aussi le moment de se préparer pour le mariage.',
@@ -32,7 +32,7 @@ const ScheduleComponent = () => {
       id: randomUUID(),
       time: '14h45 -16h00',
       title: 'Mariage',
-      type: 'Evènement principal : ',
+      type: 'Evènement principal :',
       adress: '13 Av. de Carlet, 91380 Chilly-Mazarin, France',
       description:
         'Mariage de Mélanie et Swann, à la mairie de Chilly-Mazarin. Pour rappel, le dress code est mariage champêtre, décontracté.',
@@ -56,7 +56,7 @@ const ScheduleComponent = () => {
       id: randomUUID(),
       time: 'Le dimanche',
       title: 'Escalade',
-      type: 'Escalade bloc à ',
+      type: 'Escalade bloc :',
       adress: 'Arkose Massy 4 Rue Galvani, 91300 Massy',
       description:
         "Pour ceux qui sont motivés et disponibles, on va aller grimper le lendemain matin à la salle d'escalade d'Arkose Massy. Il est possible d'y louer des chaussons.",
