@@ -9,8 +9,8 @@ const RdvMapComponent = () => {
     'A la mairie de Chilly-Mazarin : Pl. du 8 Mai 1945, 91380 Chilly-Mazarin, France';
 
   return (
-    <section className="text-white">
-      <h2 className="p-2 py-4 text-2xl">{title}</h2>
+    <section className="p-2 text-white sm:p-0">
+      <h2 className="py-4 text-2xl">{title}</h2>
 
       <div className="flex flex-col flex-wrap justify-around items-center md:flex-row">
         {/* container with 2 part map  */}

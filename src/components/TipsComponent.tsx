@@ -45,13 +45,13 @@ const TipsComponent = () => {
   ];
 
   return (
-    <div className="w-full">
+    <section className="p-2 w-full sm:p-0">
       <h2 className="my-2 text-2xl">Astuces et recommandations</h2>
       <h2 className="my-2 text-lg">Hébergement</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         {hotelList?.map((hotel) => (
           <div
-            className="my-3 w-full rounded-md md:w-56 bg-accent"
+            className="my-3 w-full bg-blue-300 bg-opacity-20 rounded-lg drop-shadow-lg backdrop-blur-lg d md:w-56"
             key={hotel.id}
           >
             <h5 className="p-2 h-20 text-center uppercase">{hotel.title}</h5>
@@ -88,7 +88,7 @@ const TipsComponent = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
