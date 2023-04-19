@@ -2,11 +2,11 @@ import Image from 'next/image';
 import React from 'react';
 import { MdDriveEta, MdLocationPin } from 'react-icons/md';
 import { GiClothes } from 'react-icons/gi';
+import { config } from '@/utils/intialValues';
 
 const RdvMapComponent = () => {
-  const title = 'Le mariage commence à 15h';
-  const address =
-    'A la mairie de Chilly-Mazarin : Pl. du 8 Mai 1945, 91380 Chilly-Mazarin, France';
+  const title = `Le mariage commence à ${config.weddingStarts}`;
+  const address = `A la mairie de ${config.weddingPlace} : ${config.weddingPlaceAddress};`;
 
   return (
     <section className="p-2 text-white sm:p-0">
