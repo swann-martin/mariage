@@ -10,7 +10,9 @@ export const config = {
   weddingStarts: '15h',
   weddingDay: '20 mai 2023',
   weddingPlace: 'la mairie de Chilly-Mazarin',
-  weddingPlaceAddress: 'Pl. du 8 Mai 1945, 91380 Chilly-Mazarin, France'
+  weddingPlaceAddress: 'Pl. du 8 Mai 1945, 91380 Chilly-Mazarin, France',
+  carPark: "le parking de l'église ou près du parc",
+  dressCode: 'Mariage décontracté'
 };
 
 export const activitiesList = [
@@ -45,7 +47,7 @@ export const activitiesList = [
     type: 'Evènement principal :',
     adress: '13 Av. de Carlet, 91380 Chilly-Mazarin, France',
     description:
-      'Mariage de Mélanie et Swann, à la mairie de Chilly-Mazarin. Pour rappel, le dress code est mariage champêtre, décontracté.',
+      'Mariage de Mélanie et Swann, à la mairie de Chilly-Mazarin. Pour rappel, le dress code est mariage décontracté.',
     imageUrl: '/images/mairie.jpeg',
     alt: 'photo de la mairie',
     link: ''
@@ -77,15 +79,15 @@ export const activitiesList = [
 ];
 
 export const hotelList = [
-  {
-    id: randomUUID(),
-    title: 'HôtelF1 Chilly Mazarin les Champarts',
-    adress: 'Za De La Butte Au Berger, 91380 Chilly-Mazarin, France',
-    imageUrl:
-      'https://images.unsplash.com/photo-1578681041175-9717c16b0d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-    price: '40 €',
-    tel: '+33892688900'
-  },
+  // {
+  //   id: randomUUID(),
+  //   title: 'HôtelF1 Chilly Mazarin les Champarts',
+  //   adress: 'Za De La Butte Au Berger, 91380 Chilly-Mazarin, France',
+  //   imageUrl:
+  //     'https://images.unsplash.com/photo-1578681041175-9717c16b0d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+  //   price: '40 €',
+  //   tel: '+33892688900'
+  // },
   {
     id: randomUUID(),
     title: 'Ibis budget Chilly-Mazarin',

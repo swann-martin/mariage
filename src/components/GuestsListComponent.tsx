@@ -66,12 +66,6 @@ const initialListState = [
     invitedBy: 'Mélanie',
     bestMan: true
   },
-  // {
-  //   id: randomUUID(),
-  //   name: 'Justine',
-  //   confirmed: false,
-  //   invitedBy: 'Mélanie'
-  // },
   {
     id: randomUUID(),
     name: 'Camille',
@@ -123,13 +117,6 @@ const initialListState = [
     confirmed: true,
     invitedBy: 'Swann'
   },
-  // {
-  //   id: randomUUID(),
-  //   name: 'Nico',
-  //   confirmed: false,
-  //   invitedBy: 'Swann',
-  //   bestMan: true
-  // },
   {
     id: randomUUID(),
     name: 'Damien',
@@ -182,7 +169,7 @@ const GuestsListComponent = ({ className }: { className?: string }) => {
             alt="friends fun ecard"
           />
         </div> */}
-        <div className="grid bg-cover md:grid-cols-3 gap-1w-full">
+        <div className="grid content-center bg-cover md:grid-cols-3 gap-1w-full">
           {list.map((guest, i) => (
             <div
               className="grid grid-cols-3 col-span-gap-1"

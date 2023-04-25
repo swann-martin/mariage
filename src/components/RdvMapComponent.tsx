@@ -52,9 +52,7 @@ const RdvMapComponent = () => {
                 <div className="mr-2">
                   <MdDriveEta className="text-white" size={24} />
                 </div>
-                <h3 className="">
-                  Pour vous garer : le parking de l&apos;église ou près du parc
-                </h3>
+                <h3 className="">Pour vous garer : {config.carPark}</h3>
               </div>
 
               {/* dress code  infos  */}
@@ -62,9 +60,7 @@ const RdvMapComponent = () => {
                 <div className="mr-2">
                   <GiClothes className="text-white" size={24} />
                 </div>
-                <h3 className="">
-                  Dress code : Mariage Champêtre, décontracté
-                </h3>
+                <h3 className="">Dress code : {config.dressCode}</h3>
               </div>
             </div>
           </div>
