@@ -11,18 +11,18 @@ const ScheduleComponent = () => {
         {activitiesList?.map((activity, index) => (
           <div
             key={activity.id}
-            className="flex flex-col justify-between items-center p-2 bg-blue-300 bg-opacity-20 rounded-lg drop-shadow-lg backdrop-blur-lg md:flex-row"
+            className="flex flex-col justify-between items-center bg-blue-300 bg-opacity-20 rounded-lg drop-shadow-lg backdrop-blur-lg md:flex-row"
           >
-            <p className="my-auto">{activity.time}&nbsp;</p>
+            <p className="p-2 my-auto">{activity.time}&nbsp;</p>
             <div className="flex flex-col items-start w-full md:w-2/3 sm:flex-row">
               <Image
-                className="object-cover my-2 mr-2 ml-auto w-full h-32 rounded-md md:w-32"
+                className="object-cover my-2 mr-2 ml-auto w-full h-48 rounded-md md:h-32 md:w-32"
                 src={activity.imageUrl}
                 width={2556}
                 height={1864}
                 alt={activity.alt}
               />
-              <div className="flex flex-col">
+              <div className="flex flex-col p-2">
                 <h3 className="font-bold">
                   {activity.type}&nbsp;
                   <span className="italic">{activity.adress}</span>
@@ -38,7 +38,7 @@ const ScheduleComponent = () => {
                   >
                     {index + 1 === activitiesList.length
                       ? 'Voir le site'
-                      : 'Voir le Menu'}
+                      : 'Voir le menu'}
                   </a>
                 )}
               </div>

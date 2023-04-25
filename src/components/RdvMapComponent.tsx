@@ -6,7 +6,7 @@ import { config } from '@/utils/intialValues';
 
 const RdvMapComponent = () => {
   const title = `Le mariage commence à ${config.weddingStarts}`;
-  const address = `A la mairie de ${config.weddingPlace} : ${config.weddingPlaceAddress};`;
+  const address = `A ${config.weddingPlace} : ${config.weddingPlaceAddress};`;
 
   return (
     <section className="p-2 text-white sm:p-0">
@@ -14,9 +14,9 @@ const RdvMapComponent = () => {
 
       <div className="flex flex-col flex-wrap justify-around items-center md:flex-row">
         {/* container with 2 part map  */}
-        <div className="h-[450px] rounded-md flex flex-col justify-between w-full md:w-1/2 mb-2">
+        <div className="md:h-[450px] rounded-md flex flex-col justify-between w-full md:w-1/2 mb-2">
           {/* container with city  council picture and details */}
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2">
             {/* city council picture  */}
             <div className="w-full">
               <Image
@@ -65,23 +65,23 @@ const RdvMapComponent = () => {
             </div>
           </div>
           {/* container with pictures of examples of weddings style  */}
-          <div className="grid grid-cols-3 gap-2 pr-2 h-36">
+          <div className="grid grid-cols-3 gap-2 h-32 md:pr-2 md:h-36">
             <Image
-              className="w-full h-36 rounded-md"
+              className="w-full h-32 rounded-md md:h-36"
               alt="wedding picture newly wed in a pasture with sheeps"
               src="https://images.unsplash.com/photo-1495705073369-e23c899a68d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
               width={500}
               height={500}
             />
             <Image
-              className="w-full h-36 rounded-md"
+              className="w-full h-32 rounded-md md:h-36"
               alt="wedding picture newly wed sat by a river"
               src="https://images.unsplash.com/photo-1430799800631-b8de6ce1fad5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80"
               width={500}
               height={500}
             />
             <Image
-              className="w-full h-36 rounded-md"
+              className="w-full h-32 rounded-md md:h-36"
               alt="wedding picture newly wed in a vinyard"
               src="https://images.unsplash.com/photo-1509331019631-b8f9bda9f91b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
               width={500}
@@ -96,7 +96,7 @@ const RdvMapComponent = () => {
           style={{ border: 0, margin: 0 }}
           referrerPolicy="no-referrer-when-downgrade"
           src="https://www.openstreetmap.org/export/embed.html?bbox=2.309440970420838%2C48.70179517650844%2C2.316253781318665%2C48.705123041147374&amp;zoom=50&amp;layer=mapnik&amp;marker=48.70257051782459%2C2.3125845193862915"
-          className="h-[250px] md:h-[450px] w-full md:w-1/2 rounded-md my-2"
+          className="h-[250px] md:h-[450px] w-full mt-3 md:w-1/2 rounded-md my-2"
           seamless
         />
       </div>
