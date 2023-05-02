@@ -20,7 +20,7 @@ export const activitiesList = [
     id: randomUUID(),
     time: '11h30 -12h00',
     title: 'Livraison de repas italiens : "Gusto e Passione"',
-    type: 'Repas du midi : ',
+    type: 'Repas du midi (OPTIONNEL) : ',
     adress: 'chez les parents de Mélanie',
     description:
       'Livraison de repas italiens : "Gusto e Passione", chez les parents de Mélanie.',

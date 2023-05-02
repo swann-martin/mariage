@@ -24,7 +24,7 @@ const RdvMapComponent = () => {
                 src="/images/mairie.jpeg"
                 width={2556}
                 height={1864}
-                alt="Mairie de chilly Mazarin"
+                alt="image de mairie"
               />
             </div>
 
