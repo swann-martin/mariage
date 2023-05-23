@@ -259,7 +259,7 @@ export const hotelList = [
     adress: '3 Rue Pierre Mauroy, 59000 Lille, France',
     tel: '+33320133313',
     imageUrl:
-      'https://lh3.googleusercontent.com/gps-proxy/AE4_-5HdSXWku3mbd30Z_MxjESpiAu1RfEJSKR6Eoji6esisvdsvQos73JQToBB2jg6cX5QGJ9ssn6NRGJ5jVKeFjO7g9jlm3oYw4DoMO5ei3CmUtEES3Hbem0vLk6FdFfGbPKwiO2ZXtO7gnADEYk8xBNc0hO_ilHeFpnoS-IgPbOcl9yOhjLZNGiqKgQ=w408-h306-k-no',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lille_carlton_depuis_place_du_theatre.jpg/260px-Lille_carlton_depuis_place_du_theatre.jpg',
     price: '170 €',
     link: ''
   },
@@ -269,7 +269,7 @@ export const hotelList = [
     adress: '224 Rue Pierre Mauroy, 59000 Lille, France',
     tel: '+33320853030',
     imageUrl:
-      'https://lh3.googleusercontent.com/gps-proxy/AE4_-5EOflUGwJNe8RSEUEgmjr4NDD0K393s4Mu7yp2em5FsPY1YlYRkMm6QbyArQBo0TIeQ4R9I9Ys4lqcUtfkQLZRtF5CgPaVxV4M26AcHgtY2nG6q_jk4QyjOlj8GXnoYvb79L--krS01A3T-JmbnW3LvNQu1-n7OsfcFIwbTKUaW4pLkWrf1KhSn=w444-h240-k-no',
+      'https://upload.wikimedia.org/wikipedia/commons/5/50/Lille_hospice_gantois_trois_quarts_N.jpg',
     price: '260 €',
     link: ''
   },
