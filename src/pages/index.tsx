@@ -22,7 +22,10 @@ export default function Home() {
           content={`Mariage de ${brideName} & ${groomName}`}
         />
 
-        <meta property="og:image" content={`${siteUrl}homeweb.webp`} />
+        <meta
+          property="og:image"
+          content={`https://images.unsplash.com/photo-1571462525005-d3ce5f5f7dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80`}
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta
