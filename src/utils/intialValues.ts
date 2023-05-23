@@ -4,8 +4,8 @@ export const mainBg =
   'https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80';
 
 export const config = {
-  author: 'Swann Martin',
-  siteUrl: 'https://swann-martin.xyz/',
+  author: 'Emile Martin',
+  siteUrl: 'https://Emile-martin.xyz/',
   year: '2023',
   brideName: 'Lucienne',
   groomName: 'Emile',
@@ -22,6 +22,154 @@ export const config = {
   img2: 'https://images.unsplash.com/photo-1610064980867-ae10cf264e1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
   img3: 'https://images.unsplash.com/photo-1630415262546-88ae8f14d716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
 };
+export const initialListState = [
+  {
+    id: randomUUID(),
+    name: 'Lucienne',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Emile',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Sacha',
+    confirmed: true,
+    child: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Armand',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Pascaline',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Jean-Eude',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Sylvie',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Georgina',
+    confirmed: true,
+    invitedBy: 'Emile',
+    bestMan: true
+  },
+  {
+    id: randomUUID(),
+    name: 'Andrée',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Vincenzo',
+    confirmed: true,
+    invitedBy: 'Lucienne',
+    bestMan: true
+  },
+  {
+    id: randomUUID(),
+    name: 'Camille',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Emma',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Marianne',
+    confirmed: true,
+    invitedBy: 'Lucienne',
+    bestMan: true
+  },
+  {
+    id: randomUUID(),
+    name: 'Sophie',
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Noah',
+    child: true,
+    confirmed: true,
+    invitedBy: 'Lucienne'
+  },
+  {
+    id: randomUUID(),
+    name: 'Thomas',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Mélina',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Theodor',
+    child: true,
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Damien',
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Sarah',
+    confirmed: false,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Valentin',
+    confirmed: true,
+    child: true
+  },
+  {
+    id: randomUUID(),
+    name: 'Samantha',
+    child: true,
+    confirmed: true,
+    invitedBy: 'Emile'
+  },
+  {
+    id: randomUUID(),
+    name: 'Batiste',
+    child: true,
+    confirmed: true,
+    invitedBy: 'Emile'
+  }
+];
 
 export const activitiesList = [
   {
